@@ -1,21 +1,13 @@
-# Route Planning Project
+# A* Route Planner in C++
 
-This repo contains the starter code for the Route Planning project.
+Developed a route planner that plots the shortest path found using the A* search algorithm between two points on a real map using map data from the OpenStreetMap project. The program is written in C++ and uses the 2D rendering library IO2D to render the map data. The project covers pointers, references, OOP and it is compiled using CMake.
+
+Both the code to parse the OSM data and the data structures which are used to store the data in the program have already been written in the IO2D OpenStreetMap example(https://github.com/cpp-io2d/P0267_RefImpl/tree/master/P0267_RefImpl/Samples/maps)
 
 <img src="map.png" width="600" height="450" />
+<img src="console.png" width="600" height="450" />
 
-## Cloning
-
-When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
-```
-git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
-```
-or with SSH:
-```
-git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules
-```
-
-## Dependencies for Running Locally
+## Dependencies 
 * cmake >= 3.11.3
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
 * make >= 4.1 (Linux, Mac), 3.81 (Windows)
@@ -51,11 +43,3 @@ Or to specify a map file:
 ```
 ./OSM_A_star_search -f ../<your_osm_file.osm>
 ```
-
-## Testing
-
-The testing executable is also placed in the `build` directory. From within `build`, you can run the unit tests as follows:
-```
-./test
-```
-

@@ -4,8 +4,8 @@ Developed a route planner that plots the shortest path found using the A* search
 
 Both the code to parse the OSM data and the data structures which are used to store the data in the program have already been written in the IO2D OpenStreetMap example(https://github.com/cpp-io2d/P0267_RefImpl/tree/master/P0267_RefImpl/Samples/maps)
 
-<img src="map.png" width="600" height="450" />
-<img src="console.png" width="600" height="450" />
+<img src="route.png" width="600" height="450" />
+<img src="console.png" width="1100" height="200" />
 
 ## Dependencies 
 * cmake >= 3.11.3
